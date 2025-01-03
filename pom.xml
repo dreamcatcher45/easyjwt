@@ -4,18 +4,28 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.dreamcatcher45</groupId>
+     <groupId>com.github.dreamcatcher45</groupId>
     <artifactId>easy-jwt</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <!-- <packaging>jar</packaging> -->
 
     <name>Easy JWT</name>
     <description>A simple JWT utility package for Spring Boot applications</description>
 
+
+<distributionManagement>
+    <repository>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/dreamcatcher45/easy-jwt</url>
+    </repository>
+</distributionManagement>
+
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.1</version>
+        <version>3.2.12</version>
     </parent>
 
     <properties>
