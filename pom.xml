@@ -21,6 +21,16 @@
     </repository>
 </distributionManagement>
 
+<repositories>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/dreamcatcher45/easy-jwt</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>
