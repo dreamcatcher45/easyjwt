@@ -20,7 +20,7 @@ Add the following dependency to your `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.github.dreamcatcher45</groupId>
-    <artifactId>easy-jwt</artifactId>
+    <artifactId>easyjwt</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
